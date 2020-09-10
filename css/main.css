@@ -3,14 +3,26 @@ body {
 }
 h1 {
   color: #4B0082;
-  font-family: verdana;
-  font-size: 30px;
-}
-li {
-  color: #8B008B;
-  font-family: verdana;
-  font-size: 30px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 40px;
 }
 a {
   color: #C71585;
 }
+li:before {
+  content: "•";
+  padding-right: 8px;
+  color: #DB7093;
+}
+li {
+  color: #8B008B;
+  font-family: verdana;
+  font-size: 20px;
+  padding-left: 16px;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    columns: 3;
+  }
