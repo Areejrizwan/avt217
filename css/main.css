@@ -2,12 +2,10 @@ body {
   background-color: #ADD8E6;
 }
 h1 {
+  text-align: center;
   color: #4B0082;
   font-family: "Times New Roman", Times, serif;
   font-size: 40px;
-}
-a {
-  color: #C71585;
 }
 li:before {
   content: "•";
@@ -16,13 +14,19 @@ li:before {
 }
 li {
   color: #8B008B;
-  font-family: verdana;
-  font-size: 20px;
   padding-left: 16px;
+  align-items:center;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 40px;
+  justify-content: center;
 }
 ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    columns: 3;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  columns: 2;
+}
+  }
+  a {
+      color: #C71585;
   }
