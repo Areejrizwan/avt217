@@ -26,7 +26,20 @@ ul {
   margin: 0;
   columns: 2;
 }
-  }
-  a {
-      color: #C71585;
-  }
+a {
+    color: #C71585;
+}
+a:link {
+  color: blue;
+  text-decoration: underline;
+}
+a:visited {
+  color: #DB7093;
+}
+a:hover {
+  color: aqua;
+  text-decoration: underline;
+}
+a:active {
+  color: midnightblue;
+}
