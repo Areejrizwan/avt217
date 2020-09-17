@@ -36,7 +36,6 @@ p {
     font-size: 40px;
 }
 a:link {
-  color: blue;
   text-decoration: underline;
 }
 a:visited {
