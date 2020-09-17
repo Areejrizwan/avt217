@@ -33,9 +33,10 @@ h2{
   font-size: 40px;
 }
 p {
-    color: #C71585;
+    color: #355C7D;
     text-align: center;
     vertical-align: bottom;
+    bottom: -200px;
     font-family: "Times New Roman", Times, serif;
     font-size: 40px;
 }
