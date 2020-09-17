@@ -1,41 +1,26 @@
 body {
-	background: linear-gradient(-45deg, #A8E6CE, #DCEDC2,  #FFD3B5 , #FFAAA6 );
-	background-size: 800% 800%;
-	animation: gradient 15s ease infinite;
-}
-@keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
+  background-image: linear-gradient( #a0d2eb, #e5eaf5, #d0bdf4, #8458B3, #a28089 );
+		background-size: 500% 500%;
 }
 h1 {
   text-align: center;
-  vertical-align: bottom;
-  bottom: -200px;
-  color: #CC527A;
+  bottom: -180px;
+  color: #8458B3;
   font-family: "Times New Roman", Times, serif;
   font-size: 80px;
 
 }
 h2{
   text-align: center;
-  vertical-align: bottom;
-  bottom: -200px;
-  color: #355C7D ;
+  bottom: -180px;
+  color:  #a0d2eb ;
   font-family: "Times New Roman", Times, serif;
   font-size: 60px;
 }
 p {
-    color: #355C7D;
+    color: #8458B3;
     text-align: center;
-    vertical-align: bottom;
-    bottom: -200px;
+    bottom: -180px;
     position: relative;
     font-family: "Times New Roman", Times, serif;
     font-size: 60px;
