@@ -30,7 +30,7 @@ h2{
 li:before {
   color: #DB7093;
 }
-li:after {
+li:{
   color: #8B008B;
   align-items:center;
   font-family: "Times New Roman", Times, serif;
