@@ -27,18 +27,12 @@ h2{
   font-family: "Times New Roman", Times, serif;
   font-size: 60px;
 }
-li:before {
-  color: #DB7093;
-}
-li:{
-  color: #8B008B;
-  align-items:center;
-  font-family: "Times New Roman", Times, serif;
-  font-size: 40px;
-  justify-content: center;
-}
 a {
     color: #C71585;
+    align-items:center;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 40px;
+    justify-content: center;
 }
 a:link {
   color: blue;
