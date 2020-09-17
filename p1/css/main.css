@@ -1,6 +1,7 @@
 body {
 	background-color: linear-gradient(-45deg, #E27D60, #85DCB,  #E8A87C, #C38D9E,#41B3A );
-  animation: gradient 20s ease infinite;
+  background-size: 400% 400%;
+  animation: linear-gradient 20s ease infinite;
 }
 @keyframes gradient {
 	0% {
@@ -14,7 +15,7 @@ body {
 	}
 }
 h1 {
-  text-align: left;
+  text-align: center;
   color: #4B0082;
   font-family: "Times New Roman", Times, serif;
   font-size: 60px;
