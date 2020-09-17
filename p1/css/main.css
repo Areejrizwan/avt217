@@ -1,6 +1,6 @@
 body {
 	background-color: linear-gradient(-45deg, #F8B195, #F67280, #C06C84, #6C5B7B,  #355C7D );
-  
+
 }
 @keyframes gradient {
 	0% {
@@ -15,14 +15,14 @@ body {
 }
 h1 {
   text-align: center;
-  color: #4B0082;
+  color: #CC527A  ;
   font-family: "Times New Roman", Times, serif;
   font-size: 60px;
 
 }
 h2{
   text-align: center;
-  color: #4B0082;
+  color: #CC527A  ;
   font-family: "Times New Roman", Times, serif;
   font-size: 60px;
 }
