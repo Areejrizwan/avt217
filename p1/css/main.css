@@ -27,7 +27,7 @@ h2{
   text-align: center;
   vertical-align: bottom;
   bottom: -150px;
-  position: relative
+  position: relative;
   color: #355C7D ;
   font-family: "Times New Roman", Times, serif;
   font-size: 40px;
@@ -37,6 +37,7 @@ p {
     text-align: center;
     vertical-align: bottom;
     bottom: -200px;
+    position: relative;
     font-family: "Times New Roman", Times, serif;
     font-size: 40px;
 }
