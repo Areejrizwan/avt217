@@ -21,10 +21,16 @@ h1 {
   font-size: 60px;
 
 }
+h2{
+  text-align: center;
+  color: #4B0082;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 60px;
+}
 li:before {
   color: #DB7093;
 }
-li {
+li:after {
   color: #8B008B;
   padding-left: 16px;
   align-items:center;
