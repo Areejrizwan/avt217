@@ -29,10 +29,9 @@ h2{
 }
 p {
     color: #C71585;
-    align-items:center;
+    text-align: center;
     font-family: "Times New Roman", Times, serif;
     font-size: 40px;
-    justify-content: center;
 }
 a:link {
   color: blue;
