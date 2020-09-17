@@ -2,28 +2,11 @@ body {
 	background-color: linear-gradient(-45deg, #E27D60, #85DCB,  #E8A87C, #C38D9E,#41B3A3 );
 
 }
-@keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
-}
 h1 {
   text-align: left;
   color: #4B0082;
   font-family: "Times New Roman", Times, serif;
   font-size: 60px;
-
-}
-li:before {
-  content: "•";
-  padding-right: 8px;
-  color: #DB7093;
 }
 li {
   color: #8B008B;
