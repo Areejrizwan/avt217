@@ -16,6 +16,8 @@ body {
 h1 {
   text-align: center;
   vertical-align: bottom;
+  postion: relative;
+  bottom: -200px;
   color: #CC527A;
   font-family: "Times New Roman", Times, serif;
   font-size: 60px;
@@ -24,6 +26,8 @@ h1 {
 h2{
   text-align: center;
   vertical-align: bottom;
+  bottom: -150px;
+  position: relative
   color: #CC527A;
   font-family: "Times New Roman", Times, serif;
   font-size: 40px;
