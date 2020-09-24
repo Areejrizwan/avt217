@@ -6,8 +6,8 @@ h1 {
   text-align: center;
   bottom: -150px;
 	position: relative;
-  color: #8458B3;
-  font-family: "Playfair Display", serif;
+  color: darkmagenta;
+  font-family: 'Ranchers', cursive;
   font-size: 80px;
 
 }
@@ -15,8 +15,8 @@ h2{
   text-align: center;
   bottom: -120px;
 	position: relative;
-  color:  #C0005E ;
-  font-family: "Playfair Display",serif;
+  color:  mediumvioletred;
+  font-family: 'Ranchers', cursive;
   font-size: 60px;
 }
 p {
