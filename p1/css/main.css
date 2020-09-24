@@ -6,8 +6,8 @@ h1 {
   text-align: center;
   bottom: -150px;
 	position: relative;
-  color: darkmagenta;
-  font-family: 'Ranchers', cursive;
+  color: midnightblue;
+  font-family: 'Mali', cursive;
   font-size: 80px;
 
 }
@@ -15,8 +15,8 @@ h2{
   text-align: center;
   bottom: -120px;
 	position: relative;
-  color:  mediumvioletred;
-  font-family: 'Ranchers', cursive;
+  color:  darkmagenta;
+  font-family: 'Mali', cursive;
   font-size: 60px;
 }
 p {
@@ -24,19 +24,19 @@ p {
     text-align: center;
     bottom: -200px;
     position: relative;
-    font-family: "Times New Roman", Times, serif;
+    font-family: 'Mali', cursive;
     font-size: 60px;
 }
 a:link {
   text-decoration: underline;
 }
 a:visited {
-  color: #DB7093;
+  color: lightseagreen;
 }
 a:hover {
-  color: aqua;
+  color: midnightblue;
   text-decoration: underline;
 }
 a:active {
-  color: midnightblue;
+  color: darkturquoise;
 }
