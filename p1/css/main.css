@@ -20,7 +20,7 @@ h2{
   font-size: 60px;
 }
 p {
-    color: #8458B3;
+    color: darkslateblue;
     text-align: center;
     bottom: -200px;
     position: relative;
@@ -31,12 +31,12 @@ a:link {
   text-decoration: underline;
 }
 a:visited {
-  color: lightseagreen;
+  color: teal;
 }
 a:hover {
   color: midnightblue;
   text-decoration: underline;
 }
 a:active {
-  color: darkturquoise;
+  color: mediumvioletred;
 }
