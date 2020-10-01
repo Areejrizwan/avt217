@@ -7,14 +7,14 @@ body {
   padding: 100px;
 }
 h1 {
-  font-family: 'Libre Baskerville', serif;
-  font-size: 55px;
+  font-family: 'Mali', cursive;
+  font-size: 60px;
   color: #141842;
   text-align:center;
 }
 h2 {
-  font-family: 'Playfair Display', serif;
-  font-size: 25px;
+  font-family: 'Mali', cursive;
+  font-size: 28px;
   text-align:left;
   color: midnightblue  ;
 }
@@ -30,8 +30,9 @@ ul {
   margin: 0;
   padding: 10px;
   line-height: 35px;
-  font-family: 'Libre Baskerville', serif;
+  font-family: 'Mali', cursive;
   color: #9C175C;
+  font-size: 18px;
 }
 a:link {
   color: #9C175C;
