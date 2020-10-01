@@ -16,7 +16,7 @@ h2 {
   font-family: 'Playfair Display', serif;
   font-size: 25px;
   text-align:left;
-  color: #141842  ;
+  color: midnightblue  ;
 }
 
 p {
@@ -26,13 +26,12 @@ p {
   font-size: 20px;
   text-align: left;
 }
-
 ul {
   list-style-type: circle;
   margin: 0;
   padding: 0;
   line-height: 35px;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Libre Baskerville', serif;
   color: #9C175C;
 }
 a:visited {
