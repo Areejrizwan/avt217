@@ -18,7 +18,6 @@ h2 {
   text-align:left;
   color: midnightblue  ;
 }
-
 p {
   font-family: 'Playfair Display', serif;
   letter-spacing: normal;
@@ -32,6 +31,9 @@ ul {
   padding: 0;
   line-height: 35px;
   font-family: 'Libre Baskerville', serif;
+  color: #9C175C;
+}
+a:link {
   color: #9C175C;
 }
 a:visited {
