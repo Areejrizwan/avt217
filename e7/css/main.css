@@ -28,7 +28,7 @@ p {
 ul {
   list-style-type: circle;
   margin: 0;
-  padding: 0;
+  padding: 10px;
   line-height: 35px;
   font-family: 'Libre Baskerville', serif;
   color: #9C175C;
