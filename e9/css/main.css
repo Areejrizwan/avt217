@@ -73,7 +73,7 @@ li {
   opacity: .5;
 }
 #p2 .shape1 {
-  width:300px;
+  width:250px;
   height: 300px;
   background-color: midnightblue;
   margin: -70px;
@@ -84,13 +84,13 @@ li {
   width: 200px;
   height: 200px;
   background-color: mediumvioletred;
-  margin: -60px;
+  margin: -70px;
   float: left;
   opacity: .5;
 }
 #p2 .shape3 {
-  width: 200px;
-  height: 200px;
+  width: 100px;
+  height: 100px;
   background-color: aquamarine;
   margin: -70px;
   float: left;
@@ -105,59 +105,59 @@ li {
   opacity: .5;
 }
 #p3 .shape1 {
-  width: 150px;
-  height: 100px;
-  transform: skew(60deg);
+  width: 350px;
+  height: 300px;
+  transform: skew(40deg);
   background-color: darkcyan;
-  margin: 0px;
+  margin: -40px;
   float: left;
 }
 #p3 .shape2 {
-  width: 140px;
-  height: 100px;
-  transform: skew(60deg);
+  width: 400px;
+  height: 450px;
+  transform: skew(40deg);
   background-color: lightskyblue;
-  margin: 0px;
+  margin: -40px;
   float: left;
 }
 #p3 .shape3 {
-  width: 100px;
-  height: 120px;
-  transform: skew(60deg);
+  width: 350px;
+  height: 200px;
+  transform: skew(40deg);
   background-color: blueviolet;
-  margin: 0px;
+  margin: -40px;
   float: left;
 }
 #p3 .shape4 {
-  width: 200px;
+  width: 250px;
   height: 200px;
-  transform: skew(60deg);
+  transform: skew(40deg);
   background-color: dodgerblue;
-  margin: 0px;
+  margin: -80px;
   float: left;
 }
 #p4 .shape1 {
   width: 100px;
   height: 100px;
-  background: red;
+  background: rosybrown;
   border-radius: 100px / 50px;
-  margin: -30px;
+  margin: -60px;
   float: left;
   opacity: .7;
 }
 #p4 .shape2 {
   width: 200px;
   height: 100px;
-  background: blue;
+  background: turquoise;
   border-radius: 100px / 50px;
-  margin: -30px;
+  margin: -50px;
   float: left;
   opacity: .7;
 }
 #p4 .shape3 {
   width: 200px;
   height: 100px;
-  background: red;
+  background: blueviolet;
   border-radius: 100px / 50px;
   margin: -30px;
   float: left;
@@ -166,7 +166,7 @@ li {
 #p4 .shape4 {
   width: 200px;
   height: 100px;
-  background: yellow;
+  background: darkcyan;
   border-radius: 100px / 50px;
   margin: -30px;
   float: left;
@@ -177,7 +177,7 @@ li {
   height: 0;
   border-top: 100px solid turquoise;
   border-right: 100px solid transparent;
-  margin: -60px;
+  margin: -30px;
   float: left;
   opacity: .6;
 }
