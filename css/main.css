@@ -28,16 +28,14 @@ main {
 	float: left;
 }
 h1 {
-  color: #4B0082;
-  font-family: "Playfair Display", serif;
-	font-size: 60px;
-
+  color: midnightblue;
+  font-family: 'Mali', cursive;
 }
 h2{
 	text-align: left;
-  color: mediumvioletred;
-  font-family: "Playfair Display", serif;
-  font-size: 50px;
+  color: darkslateblue;
+  font-family: 'Mali', cursive;
+  font-size: 45px;
 }
 li:before {
   content: "•";
@@ -65,14 +63,14 @@ a:link {
   text-decoration: underline;
 }
 a:visited {
-  color: #DB7093;
+  color: mediumvioletred;
 }
 a:hover {
-  color: aqua;
+  color: lightseagreen;
   text-decoration: underline;
 }
 a:active {
-  color: midnightblue;
+  color: aqua;
 }
 img {
 	max-width: 100%;
@@ -90,6 +88,6 @@ img {
 		width: 90vw;
 	}
 	h1{
-		font-size: 3rem;
+		font-size: 60px;
 	}
 }
