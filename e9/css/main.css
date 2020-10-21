@@ -10,30 +10,25 @@ main {
   margin: -100px -12.5vw;
 }
 h1 {
-  font-family: "Mali" cursive;
-  color: orange;
-  font-size: 100px;
-  font-weight: bolder;
+  font-family: 'Mali', cursive;
+  color: mediumvioletred;
+  font-size: 70px;
   margin: 0px 35px;
 }
-#main {
-  margin: 0px 50px;
-  background-color: black;
-}
 a:link {
-  font-family: "Mali" cursive;
-  font-size: 20px;
-  text-decoration: none;
-  color: rgb(0, 221, 255);
+  font-family: 'Mali', cursive;
+  font-size: 30px;
+  text-decoration: underline;
+  color: darkcyan
 }
 a:visited {
-  color: rgb(0, 221, 255);
+  color: teal;
 }
 a:hover {
-  color: orange;
+  color: midnightblue;
 }
 li {
-  color: orange;
+  color: mediumvioletred;
   list-style-type: square;
   line-height: 50px;
 }
@@ -42,7 +37,7 @@ li {
   height: 0;
   border-left: 20px solid transparent;
   border-right: 10px solid transparent;
-  border-bottom: 90px solid yellow;
+  border-bottom: 90px solid darkviolet;
   margin: -80px;
   float: right;
   opacity: .5;
@@ -52,7 +47,7 @@ li {
   height: 0;
   border-left: 40px solid transparent;
   border-right: 5px solid transparent;
-  border-top: 100px solid orange;
+  border-top: 100px solid lightskyblue;
   margin: -20px;
   float: left;
   opacity: .5;
@@ -62,7 +57,7 @@ li {
   height: 0;
   border-left: 50px solid transparent;
   border-right: 100px solid transparent;
-  border-bottom: 100px solid red;
+  border-bottom: 100px solid midnightblue;
   margin: -30px;
   float: left;
   opacity: .5;
@@ -72,13 +67,13 @@ li {
   height: 0;
   border-left: 50px solid transparent;
   border-right: 0px solid transparent;
-  border-top: 100px solid blue;
+  border-top: 100px solid darkmagenta;
   margin: -50px;
   float: left;
   opacity: .5;
 }
 #p2 .shape1 {
-  width:400px;
+  width:300px;
   height: 300px;
   background-color: midnightblue;
   margin: -70px;
@@ -86,7 +81,7 @@ li {
   opacity: .5;
 }
 #p2 .shape2 {
-  width: 300px;
+  width: 200px;
   height: 200px;
   background-color: mediumvioletred;
   margin: -60px;
@@ -95,17 +90,17 @@ li {
 }
 #p2 .shape3 {
   width: 200px;
-  height: 100px;
+  height: 200px;
   background-color: aquamarine;
   margin: -70px;
   float: left;
   opacity: .5;
 }
 #p2 .shape4 {
-  width: 100px;
-  height: 50px;
+  width: 150px;
+  height: 150px;
   background-color: darkturquoise;
-  margin: -40px;
+  margin: -70px;
   float: left;
   opacity: .5;
 }
@@ -113,36 +108,36 @@ li {
   width: 150px;
   height: 100px;
   transform: skew(60deg);
-  background-color: gold;
+  background-color: darkcyan;
   margin: 0px;
   float: left;
 }
 #p3 .shape2 {
-  width: 150px;
+  width: 140px;
   height: 100px;
   transform: skew(60deg);
-  background-color: orange;
+  background-color: lightskyblue;
   margin: 0px;
   float: left;
 }
 #p3 .shape3 {
-  width: 150px;
-  height: 100px;
+  width: 100px;
+  height: 120px;
   transform: skew(60deg);
-  background-color: orangered;
+  background-color: blueviolet;
   margin: 0px;
   float: left;
 }
 #p3 .shape4 {
-  width: 150px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
   transform: skew(60deg);
-  background-color: red ;
+  background-color: dodgerblue;
   margin: 0px;
   float: left;
 }
 #p4 .shape1 {
-  width: 200px;
+  width: 100px;
   height: 100px;
   background: red;
   border-radius: 100px / 50px;
@@ -180,36 +175,36 @@ li {
 #p5 .shape1 {
   width: 0;
   height: 0;
-  border-top: 100px solid lightskyblue;
+  border-top: 100px solid turquoise;
   border-right: 100px solid transparent;
-  margin: -20px;
+  margin: -60px;
   float: left;
   opacity: .6;
 }
 #p5 .shape2 {
   width: 0;
   height: 0;
-  border-bottom: 100px solid lightskyblue;
+  border-bottom: 100px solid violet;
   border-left: 100px solid transparent;
-  margin: -20px;
+  margin: -30px;
   float: left;
   opacity: .6;
 }
 #p5 .shape3 {
   width: 0;
   height: 0;
-  border-bottom: 100px solid lightskyblue;
-  border-right: 100px solid transparent;
-  margin: -20px;
+  border-bottom: 200px solid transparent;
+  border-right: 200px solid darkblue;
+  margin: -70px;
   float: left;
   opacity: .6;
 }
 #p5 .shape4 {
   width: 0;
   height: 0;
-  border-top: 100px solid lightskyblue;
-  border-left: 100px solid transparent;
-  margin: -20px;
+  border-top: 150px solid transparent;
+  border-left: 150px solid cyan;
+  margin: -50px;
   float: left;
   opacity: .6;
 }
