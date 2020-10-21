@@ -105,35 +105,35 @@ li {
   opacity: .5;
 }
 #p3 .shape1 {
-  width: 350px;
-  height: 300px;
-  transform: skew(40deg);
+  width: 450px;
+  height: 400px;
+  transform: skew(50deg);
   background-color: darkcyan;
-  margin: -40px;
+  margin: -150px;
   float: left;
 }
 #p3 .shape2 {
   width: 400px;
   height: 450px;
-  transform: skew(40deg);
+  transform: skew(50deg);
   background-color: lightskyblue;
-  margin: -40px;
+  margin: -150px;
   float: left;
 }
 #p3 .shape3 {
-  width: 350px;
-  height: 200px;
-  transform: skew(40deg);
+  width: 450px;
+  height: 400px;
+  transform: skew(50deg);
   background-color: blueviolet;
-  margin: -40px;
+  margin: -150px;
   float: left;
 }
 #p3 .shape4 {
-  width: 250px;
-  height: 200px;
-  transform: skew(40deg);
+  width: 400px;
+  height: 450px;
+  transform: skew(50deg);
   background-color: dodgerblue;
-  margin: -80px;
+  margin: -150px;
   float: left;
 }
 #p4 .shape1 {
