@@ -14,12 +14,30 @@ body {
 		background-position: 0% 50%;
 	}
 }
+header {
+	width: 75vw;
+	margin: 25px auto;
+}
+main {
+	width: 75vw;
+	margin: 25px auto;
+	display: flow-root;
+}
+.col{
+	width: 50%;
+	float: left;
+}
 h1 {
-  text-align: left;
   color: #4B0082;
-  font-family: "Times New Roman", Times, serif;
-  font-size: 60px;
+  font-family: "Playfair Display", serif;
+	font-size: 60px;
 
+}
+h2{
+	text-align: left;
+  color: mediumvioletred;
+  font-family: "Playfair Display", serif;
+  font-size: 50px;
 }
 li:before {
   content: "•";
@@ -38,7 +56,6 @@ ul {
   list-style: none;
   padding: 0;
   margin: 0;
-  columns: 2;
 }
 a {
     color: #C71585;
@@ -56,4 +73,23 @@ a:hover {
 }
 a:active {
   color: midnightblue;
+}
+img {
+	max-width: 100%;
+}
+
+@media screen and (max-width: 1536px) {
+	.col {
+		width: 100%
+		margin-bottom: 50px;
+	}
+	header {
+		width: 90vw;
+	}
+	main {
+		width: 90vw;
+	}
+	h1{
+		font-size: 3rem;
+	}
 }
