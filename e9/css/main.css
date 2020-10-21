@@ -1,0 +1,215 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+main {
+  width: 120vw;
+  margin: -100px -12.5vw;
+}
+h1 {
+  font-family: "Mali" cursive;
+  color: orange;
+  font-size: 100px;
+  font-weight: bolder;
+  margin: 0px 35px;
+}
+#main {
+  margin: 0px 50px;
+  background-color: black;
+}
+a:link {
+  font-family: "Mali" cursive;
+  font-size: 20px;
+  text-decoration: none;
+  color: rgb(0, 221, 255);
+}
+a:visited {
+  color: rgb(0, 221, 255);
+}
+a:hover {
+  color: orange;
+}
+li {
+  color: orange;
+  list-style-type: square;
+  line-height: 50px;
+}
+#p1 .shape1 {
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 90px solid yellow;
+  margin: -80px;
+  float: right;
+  opacity: .5;
+}
+#p1 .shape2 {
+  width: 0;
+  height: 0;
+  border-left: 40px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 100px solid orange;
+  margin: -20px;
+  float: left;
+  opacity: .5;
+}
+#p1 .shape3 {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 100px solid transparent;
+  border-bottom: 100px solid red;
+  margin: -30px;
+  float: left;
+  opacity: .5;
+}
+#p1 .shape4 {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 0px solid transparent;
+  border-top: 100px solid blue;
+  margin: -50px;
+  float: left;
+  opacity: .5;
+}
+#p2 .shape1 {
+  width:400px;
+  height: 300px;
+  background-color: midnightblue;
+  margin: -70px;
+  float: left;
+  opacity: .5;
+}
+#p2 .shape2 {
+  width: 300px;
+  height: 200px;
+  background-color: mediumvioletred;
+  margin: -60px;
+  float: left;
+  opacity: .5;
+}
+#p2 .shape3 {
+  width: 200px;
+  height: 100px;
+  background-color: aquamarine;
+  margin: -70px;
+  float: left;
+  opacity: .5;
+}
+#p2 .shape4 {
+  width: 100px;
+  height: 50px;
+  background-color: darkturquoise;
+  margin: -40px;
+  float: left;
+  opacity: .5;
+}
+#p3 .shape1 {
+  width: 150px;
+  height: 100px;
+  transform: skew(60deg);
+  background-color: gold;
+  margin: 0px;
+  float: left;
+}
+#p3 .shape2 {
+  width: 150px;
+  height: 100px;
+  transform: skew(60deg);
+  background-color: orange;
+  margin: 0px;
+  float: left;
+}
+#p3 .shape3 {
+  width: 150px;
+  height: 100px;
+  transform: skew(60deg);
+  background-color: orangered;
+  margin: 0px;
+  float: left;
+}
+#p3 .shape4 {
+  width: 150px;
+  height: 100px;
+  transform: skew(60deg);
+  background-color: red ;
+  margin: 0px;
+  float: left;
+}
+#p4 .shape1 {
+  width: 200px;
+  height: 100px;
+  background: red;
+  border-radius: 100px / 50px;
+  margin: -30px;
+  float: left;
+  opacity: .7;
+}
+#p4 .shape2 {
+  width: 200px;
+  height: 100px;
+  background: blue;
+  border-radius: 100px / 50px;
+  margin: -30px;
+  float: left;
+  opacity: .7;
+}
+#p4 .shape3 {
+  width: 200px;
+  height: 100px;
+  background: red;
+  border-radius: 100px / 50px;
+  margin: -30px;
+  float: left;
+  opacity: .7;
+}
+#p4 .shape4 {
+  width: 200px;
+  height: 100px;
+  background: yellow;
+  border-radius: 100px / 50px;
+  margin: -30px;
+  float: left;
+  opacity: .7;
+}
+#p5 .shape1 {
+  width: 0;
+  height: 0;
+  border-top: 100px solid lightskyblue;
+  border-right: 100px solid transparent;
+  margin: -20px;
+  float: left;
+  opacity: .6;
+}
+#p5 .shape2 {
+  width: 0;
+  height: 0;
+  border-bottom: 100px solid lightskyblue;
+  border-left: 100px solid transparent;
+  margin: -20px;
+  float: left;
+  opacity: .6;
+}
+#p5 .shape3 {
+  width: 0;
+  height: 0;
+  border-bottom: 100px solid lightskyblue;
+  border-right: 100px solid transparent;
+  margin: -20px;
+  float: left;
+  opacity: .6;
+}
+#p5 .shape4 {
+  width: 0;
+  height: 0;
+  border-top: 100px solid lightskyblue;
+  border-left: 100px solid transparent;
+  margin: -20px;
+  float: left;
+  opacity: .6;
+}
