@@ -1,3 +1,6 @@
+*{
+	box-sizing: border-box;
+}
 body {
 	background: linear-gradient(-45deg, #51e2f5, #9df9ef,  #d0bdf4, #ffa8B6,#a28089 );
 	background-size: 400% 400%;
@@ -23,8 +26,11 @@ main {
 	margin: 25px auto;
 	display: flow-root;
 }
+#container{
+	width: 100%;
+}
 .col{
-	width: 50%;
+	width: 25%;
 	float: left;
 }
 h1 {
@@ -78,8 +84,8 @@ img {
 
 @media screen and (max-width: 1536px) {
 	.col {
-		width: 100%
-		margin-bottom: 50px;
+		width: 50%;
+		float:left;
 	}
 	header {
 		width: 90vw;
