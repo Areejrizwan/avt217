@@ -142,7 +142,7 @@ li {
   float: left;
   background-color:seagreen;
   border-style: solid;
-  border-width: medium;
+  border-width: thick;
   border-color: white;
 }
 .top {
@@ -161,7 +161,7 @@ li {
   border-style: solid;
   border-width: thick;
   border-color: white;
-  background-color:seagreen;
+  background-color:mediumseagreen;
 }
 .right {
   width: 100px;
@@ -170,7 +170,7 @@ li {
   background-color:seagreen;
   margin-top: -150px;
   border-style: solid;
-  border-width: medium;
+  border-width: thick;
   border-color: white;
 }
 .secondright{
@@ -180,6 +180,6 @@ li {
   background-color:seagreen;
   margin-top: -250px;
   border-style: solid;
-  border-width: medium;
+  border-width: thick;
   border-color: white;
 }
