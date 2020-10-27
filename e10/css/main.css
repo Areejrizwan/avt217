@@ -130,3 +130,56 @@ li {
   width: 800px;
   margin: 25px auto;
 }
+/* tennis court layout styles */
+.board {
+  width: 700px;
+  display: flow-root;
+  margin: 50px 20px 0px;
+}
+.left {
+  height: 400px;
+  width: 100px;
+  float: left;
+  background-color:seagreen;
+  border-style: solid;
+  border-width: medium;
+  border-color: white;
+}
+.top {
+  width: 500px;
+  height: 150px;
+  float: left;
+  background-color:seagreen;
+  border-style: solid;
+  border-width: medium;
+  border-color: white;
+}
+.middle {
+  width: 250px;
+  height: 250px;
+  float: left;
+  border-style: solid;
+  border-width: medium;
+  border-color: white;
+  background-color:seagreen;
+}
+.right {
+  width: 100px;
+  height: 400px;
+  float: left;
+  background-color:seagreen;
+  margin-top: -150px;
+  border-style: solid;
+  border-width: medium;
+  border-color: white;
+}
+.secondright{
+  width: 100px;
+  height: 400px;
+  float: left;
+  background-color:seagreen;
+  margin-top: -250px;
+  border-style: solid;
+  border-width: medium;
+  border-color: white;
+}
