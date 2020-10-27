@@ -38,7 +38,7 @@ li {
   background-color: #f0f0f0;
   padding: 50px;
   display: flow-root;
-  margin: 25px auto;
+  margin: 35px auto;
 }
 .red, .black {
   width: 100px;
@@ -51,40 +51,43 @@ li {
 .black {
   background-color: #d5e1df;
 }
+/*Column Layout*/
 .frame {
-  width: 650px;
+  width: 850px;
   display: flow-root;
-  margin: 50px auto 0;
+  margin: 30px auto 0;
 }
-.header, .small, .column, .footer {
+.header, .rec, .column, .footer {
   float: left;
 }
-/*Column Layout*/
 .header {
-  background-color: purple;
-  height: 60px;
-  width: 600px;
-  margin-bottom: 10px;
+  background-color: #92a8d1;
+  height: 100px;
+  width: 800px;
+  margin-bottom: 25px;
 }
-.small {
-  background-color: lightpink;
-  height: 20px;
-  width: 600px;
-  margin-bottom: 10px;
-
+.rec {
+  background-color: #f7cac9;
+  height: 25px;
+  width: 800px;
+  margin-bottom: 25px;
+}
+.center-margin{
+  margin: 0 25px;
 }
 .column {
-  background-color: hotpink;
-  width: 193px;
-  height: 500px;
-  margin-right: 10px;
+  background-color: #034f84;
+  width: 250px;
+  height: 600px;
+  float: left;
+  margin-right: 25px;
 }
 .footer {
-  background-color: lightpink;
-  height: 60px;
-  width: 600px;
-  margin-bottom: 50px;
-  margin-top: 10px;
+  background-color: #f7786b;
+  height: 100px;
+  width: 800px;
+  margin-top: 25px;
+  margin-bottom: 10px;
 }
 /*Blog layout*/
 .holder {
@@ -96,13 +99,13 @@ li {
   float: left;
 }
 .head {
-  background-color: purple;
+  background-color: #92a8d1;
   height: 120px;
   width: 800px;
   margin-bottom: 100px;
 }
 .content {
-  background-color: hotpink;
+  background-color: #f7cac9;
   height: 400px;
   width: 600px;
   margin-bottom: 15px;
@@ -111,12 +114,12 @@ li {
   width: 600px;
   height: 50px;
   margin: 0px auto;
-  background-color: purple;
+  background-color: #034f84;
   border: 5px; 0px; solid white;
   float: left;
 }
 .ad {
-  background-color: pink;
+  background-color: #f7786b;
   height: 200px;
   width: 190px;
   margin-left: 15px;
