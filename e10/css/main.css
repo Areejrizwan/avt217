@@ -137,7 +137,7 @@ li {
   margin: 35px 400px 35px;
 }
 .left {
-  height: 400px;
+  height: 300px;
   width: 100px;
   float: left;
   background-color:seagreen;
@@ -155,8 +155,8 @@ li {
   border-color: white;
 }
 .middle {
-  width: 250px;
-  height: 250px;
+  width: 200px;
+  height: 200px;
   float: left;
   border-style: solid;
   border-width: thick;
@@ -165,7 +165,7 @@ li {
 }
 .right {
   width: 100px;
-  height: 400px;
+  height: 300px;
   float: left;
   background-color:seagreen;
   margin-top: -150px;
@@ -175,7 +175,7 @@ li {
 }
 .secondright{
   width: 100px;
-  height: 400px;
+  height: 300px;
   float: left;
   background-color:seagreen;
   margin-top: -250px;
