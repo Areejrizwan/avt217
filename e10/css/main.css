@@ -130,11 +130,11 @@ li {
   width: 800px;
   margin: 25px auto;
 }
-/* tennis court layout styles */
-.board {
+/* tennis layout */
+.court {
   width: 700px;
   display: flow-root;
-  margin: 50px 20px 0px;
+  margin: 35px 400px 35px;
 }
 .left {
   height: 400px;
@@ -151,7 +151,7 @@ li {
   float: left;
   background-color:seagreen;
   border-style: solid;
-  border-width: medium;
+  border-width: thick;
   border-color: white;
 }
 .middle {
@@ -159,7 +159,7 @@ li {
   height: 250px;
   float: left;
   border-style: solid;
-  border-width: medium;
+  border-width: thick;
   border-color: white;
   background-color:seagreen;
 }
