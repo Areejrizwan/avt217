@@ -1,8 +1,10 @@
-@media screen and (min-width: 929px) {
-  .music {
-    width: 50%;
-    float: left
-  }
+@media screen and (max-width: 1586px) {
+  body {
+    background-color: white;
+    overflow-x: hidden;
+    max-width: 100%;
+    max-height: 50%;
+    margin: 0px;
 }
 * {
   box-sizing: border-box;
@@ -83,13 +85,7 @@ h5 {
   font-size: 20px;
   color: white;
 }
-body {
-  background-color: white;
-  overflow-x: hidden;
-  max-width: 100%;
-  max-height: 50%;
-  margin: 0px;
-}
+
 p{
   font-family: "Lato", serif;
   margin-right:-5px;
