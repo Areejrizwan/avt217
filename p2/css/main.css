@@ -1,4 +1,159 @@
-img {
-  max-width: 50%;
+
+/* Container holding the image and the text */
+.firstcontainer {
+  position: relative;
+  text-align: center;
+  max-width:100%;
+}
+.secondcontainer {
+  position: relative;
+  text-align: center;
+  max-width:100%;
+}
+.thirdcontainer {
+  position: relative;
+  text-align: center;
+  max-width:100%;
+}
+.fourthcontainer {
+  position: relative;
+  text-align: center;
+  max-width:100%;
+}
+.fifthcontainer {
+  position: relative;
+  text-align: center;
+  max-width:100%;
+}
+.centered {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+h1 {
+  font-family: 'Kaushan Script', cursive;
+  font-weight: lighter;
+  font-size: 80px;
+  color: #E6BE8A;
+}
+h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 80px;
+  color: white;
+}
+h3 {
+  font-family: 'Kaushan Script', cursive;
+  font-weight: lighter;
+  font-size: 80px;
+  color: #996515;
+}
+h4 {
+  font-family: 'Playfair Display', serif;
+  font-size: 30px;
+  color: white;
+}
+h5 {
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+  color: white;
+}
+h6 {
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+  color: black;
+}
+body {
+  background-color: white;
+  overflow-x: hidden;
+  max-width: 100%;
   max-height: 50%;
+  margin: 0px;
+}
+p {
+  font-family: Lato, sans-serif;
+  color: black;
+  font-size: 30px;
+  margin: 0px;
+  display: inline-block;
+  text-align: center;
+}
+a {
+  text-decoration: none;
+  padding-left: -50px;
+  padding-bottom: 0px;
+}
+a:link {
+  color: white;
+}
+a:visited {
+  color: white;
+}
+a:hover {
+  color: #E6BE8A;
+}
+a:active {
+  color: #E6BE8A;
+  text-decoration: underline;
+}
+img {
+  max-width: 100%;
+  image-orientation: left;
+}
+
+.navigation {
+  width: 120%;
+  height: 100px;
+  background-color: black;
+  margin: -10px;
+  flex-direction: row;
+  display: flex;
+}
+.logo {
+  display: inline-block;
+  width: 270px;
+  height: auto;
+  margin-right: 750px;
+  padding-left: 30px;
+}
+.navbox {
+  float: left;
+  background-color: black;
+  text-align: center;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 8px;
+  width: 140px;
+  height: 30px;
+  margin-top: 25px;
+  font-family: 'Playfair Display', serif;
+  font-size: 22px;
+  text-decoration: none;
+}
+#about{
+  float: left;
+  text-align: center;
+  padding-right: 25px;
+  padding-top: 6px;
+  padding-left: -3px;
+  padding-bottom: 9px;
+  border: 2px solid black;
+  width: 143px;
+  height: 30px;
+  margin-top: -8px;
+  margin-left: -1px;
+}
+#about a {
+ color: white;
+ text-decoration: underline;
+}
+#about a:link {
+ color: white
+ text-decoration: underline;
+}
+#about a:visited {
+  color: #E6BE8A;
+}
+#about a:active {
+  color: #E6BE8A;
 }
