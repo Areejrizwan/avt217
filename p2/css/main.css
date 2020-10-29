@@ -31,6 +31,26 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
+.scene {
+  max-width: 50%;
+  max-height: auto;
+  margin-right: 100px;
+  margin-left: 700px;
+  }
+  .end {
+    max-width: 100%;
+    max-height: 150%;
+    }
+  .footer {
+ color: white;
+ font-size: 18px;
+ margin-top: 0px;
+ font-family: sans-serif;
+ height: 140px;
+ width: 100%;
+ display: flow-root;
+ margin-bottom: 0px;
+}
 h1 {
   font-family: 'Kaushan Script', cursive;
   font-weight: lighter;
@@ -58,11 +78,6 @@ h5 {
   font-size: 20px;
   color: white;
 }
-h6 {
-  font-family: 'Playfair Display', serif;
-  font-size: 20px;
-  color: black;
-}
 body {
   background-color: white;
   overflow-x: hidden;
@@ -70,13 +85,50 @@ body {
   max-height: 50%;
   margin: 0px;
 }
-p {
-  font-family: Lato, sans-serif;
+.one{
+  font-family: "Lato", sans-serif;
   color: black;
   font-size: 30px;
   margin: 0px;
   display: inline-block;
   text-align: center;
+}
+.two{
+     font-family: "Lato", serif;
+     margin-right:-5px;
+     margin-left: 50px;
+     color: black;
+     font-size: 20px;
+
+}
+.three{
+     font-family: "Playfair Display", serif;
+     margin-right:-5px;
+     margin-left: 50px;
+     color: black;
+     font-size: 30px;
+
+}
+#main {
+ text-align: center;
+ margin-left: 700px;
+ position: relative;
+ bottom: 75px;
+}
+#sub {
+ position: relative;
+ bottom: 40px;
+ margin-left: -250px;
+}
+#top {
+ margin-left: 1100px;
+ position: relative;
+ bottom: 94px;
+}
+#bottom {
+ position: relative;
+ bottom: 61px;
+ margin-left: -100px;
 }
 a {
   text-decoration: none;
@@ -129,6 +181,16 @@ img {
   font-family: 'Playfair Display', serif;
   font-size: 22px;
   text-decoration: none;
+}
+.col {
+  width: 200px;
+  display: flow-root;
+  margin-left: 50px;
+  margin-right: 100px;
+  margin-top: 80px;
+  margin-bottom: -250px;
+  font-size: 20px;
+  color: black;
 }
 #about{
   float: left;
