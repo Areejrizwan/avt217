@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: Gainsboro;
+}
+.camera {
+  width: 100%;
+  height: 100vh;
+  padding-top: 20vh;
+}
+.body {
+  width: 600px;
+  height: 400px;
+  margin: 0 auto;
+  position: relative;
+  border-radius: 15px;
+  background-color: lightslategrey;
+}
+.lens {
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  width: 275px;
+  height: 275px;
+  border-radius: 50%;
+  border: 20px solid linen;
+  box-shadow: 0 0 20px 0px navy;
+}
+.lens:before {
+  content: ' ';
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  width: 150px;
+  height: 150px;
+  background: navy;
+  border-radius: 50%;
+  border: 40px solid black;
+}
+.button {
+  position: absolute;
+  top:-18px;
+  left: 30px;
+  width: 80px;
+  height: 18px;
+  background-color: honeydew;
+  border-radius: 20px 20px 5px 5px;
+}
+.flash {
+  position: absolute;
+  left:0;
+  right:0;
+  top: -60px;
+  margin: auto;
+  width: 150px;
+  height: 60px;
+  background: azure;
+  border-radius: 20px 20px 0 0;
+}
