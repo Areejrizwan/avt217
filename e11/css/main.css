@@ -10,11 +10,11 @@ body {
   padding-top: 22vh;
 }
 .body {
-  width: 600px;
-  height: 400px;
+  width: 580px;
+  height: 385px;
   margin: 0 auto;
   position: relative;
-  border-radius: 15px;
+  border-radius: 20px;
   background-color: #A3BCB6;
 }
 .lens {
@@ -24,10 +24,10 @@ body {
   top: 0;
   bottom: 0;
   margin: auto;
-  width: 275px;
-  height: 275px;
+  width: 265px;
+  height: 265px;
   border-radius: 50%;
-  border: 20px solid #FFFFFF;
+  border: 15px solid #FFFFFF;
 }
 .lens:before {
   content: " ";
@@ -41,7 +41,7 @@ body {
   height: 150px;
   background: lightblue;
   border-radius: 50%;
-  border: 40px solid #3C403D;
+  border: 30px solid #3C403D;
 }
 .button {
   position: absolute;
@@ -50,16 +50,16 @@ body {
   width: 80px;
   height: 18px;
   background-color:  #39603D;
-  border-radius: 20px 20px 5px 5px;
+  border-radius: 15px 15px 4px 5px;
 }
 .flash {
   position: absolute;
   left:0;
   right:0;
-  top: -60px;
+  top: -50px;
   margin: auto;
   width: 150px;
-  height: 60px;
+  height: 50px;
   background-color:#3C403D;
-  border-radius: 20px 20px 0 0;
+  border-radius: 30px 30px 3px 3px;
 }
