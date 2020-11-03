@@ -2,12 +2,12 @@
   box-sizing: border-box;
 }
 body {
-  background-color: Gainsboro;
+  background-color: #DADED4;
 }
 .camera {
   width: 100%;
-  height: 100vh;
-  padding-top: 20vh;
+  height: 95vh;
+  padding-top: 22vh;
 }
 .body {
   width: 600px;
@@ -15,7 +15,7 @@ body {
   margin: 0 auto;
   position: relative;
   border-radius: 15px;
-  background-color: lightslategrey;
+  background-color: #A3BCB6;
 }
 .lens {
   position: absolute;
@@ -27,11 +27,10 @@ body {
   width: 275px;
   height: 275px;
   border-radius: 50%;
-  border: 20px solid linen;
-  box-shadow: 0 0 20px 0px navy;
+  border: 20px solid #FFFFFF;
 }
 .lens:before {
-  content: ' ';
+  content: " ";
   position: absolute;
   right: 0;
   left: 0;
@@ -40,9 +39,9 @@ body {
   margin: auto;
   width: 150px;
   height: 150px;
-  background: navy;
+  background: lightblue;
   border-radius: 50%;
-  border: 40px solid black;
+  border: 40px solid #3C403D;
 }
 .button {
   position: absolute;
@@ -50,7 +49,7 @@ body {
   left: 30px;
   width: 80px;
   height: 18px;
-  background-color: honeydew;
+  background-color:  #39603D;
   border-radius: 20px 20px 5px 5px;
 }
 .flash {
@@ -61,6 +60,6 @@ body {
   margin: auto;
   width: 150px;
   height: 60px;
-  background: azure;
+  background-color:#3C403D;
   border-radius: 20px 20px 0 0;
 }
