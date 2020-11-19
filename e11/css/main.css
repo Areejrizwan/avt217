@@ -29,7 +29,7 @@ body {
   border-radius: 50%;
   border: 15px solid #FFFFFF;
 }
-.lens:before {
+.circle {
   content: " ";
   position: absolute;
   right: 0;
@@ -40,7 +40,7 @@ body {
   width: 150px;
   height: 150px;
   background: lightblue;
-  border-radius: 50%;
+  border-radius: 80%;
   border: 30px solid #3C403D;
 }
 .button {
