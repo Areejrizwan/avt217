@@ -93,11 +93,6 @@ li {
   bottom: 350px;
   left: 450px;
 }
-.sixth-txt {
-  position: absolute;
-  bottom: 350px;
-  left: 450px;
-}
 .secondcontainer {
   display: inline-block;
   position: relative;
@@ -146,6 +141,9 @@ h2 {
   font-family: 'Playfair Display', serif;
   font-size: 80px;
   color: white;
+  position: absolute;
+  bottom: 350px;
+  left: 450px;
 }
 
 h4 {
@@ -159,7 +157,7 @@ h5 {
   color: white;
 }
 
-p{
+.tagline{
   font-family: "Lato", serif;
   margin-right: -200px;
   font-size: 20px;
@@ -222,7 +220,7 @@ img {
   image-orientation: left;
 }
 
-.logo {
+.title {
   display: inline-block;
   width: 270px;
   height: auto;
