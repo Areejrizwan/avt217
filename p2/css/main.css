@@ -1,4 +1,14 @@
-
+@media only screen and {max-width: 1000px} {
+  .col {
+    width: 100%;
+  }
+  .hero{
+    padding: 50px 58px;
+  }
+  .col-margin{
+    margin:0;
+  }
+}
 * {
   box-sizing: border-box;
 }
@@ -38,8 +48,6 @@ li {
 .hero h1, .tagline{
 
 }
-
-
 /* Container holding the image and the text */
 .firstcontainer {
   display: inline-block;
@@ -51,6 +59,19 @@ li {
   position: absolute;
   top: 150px;
   left: 600px;
+  font-family: 'Kaushan Script', cursive;
+  font-weight: lighter;
+  font-size: 80px;
+  color: #996515;
+}
+.tagline {
+  position: absolute;
+  top: 150px;
+  left: 600px;
+  font-family: 'Kaushan Script', cursive;
+  font-weight: lighter;
+  font-size: 80px;
+  color: #E6BE8A;
 }
 .second-txt {
   position: absolute;
@@ -126,12 +147,7 @@ h2 {
   font-size: 80px;
   color: white;
 }
-h3 {
-  font-family: 'Kaushan Script', cursive;
-  font-weight: lighter;
-  font-size: 80px;
-  color: #996515;
-}
+
 h4 {
   font-family: 'Playfair Display', serif;
   font-size: 30px;
@@ -263,15 +279,4 @@ img {
 }
 .active, .dot:hover {
   background-color: black;
-}
-@media only screen and {max-width: 1000px} {
-  .col {
-    width: 100%;
-  }
-  .hero{
-    padding: 50px 58px;
-  }
-  .col-margin{
-    margin:0; 
-  }
 }
