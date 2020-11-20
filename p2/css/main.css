@@ -1,21 +1,84 @@
-@media screen and (max-width: 1586px) {
-  body {
-    background-color: white;
-    overflow-x: hidden;
-    max-width: 100%;
-    max-height: 50%;
-    margin: 0px;
-}
+
 * {
   box-sizing: border-box;
 }
+body {
+    margin: 0;
+}
+header {
+  background-color: black;
+  display: flow-root;
+  padding: 10px 50px;
+  position: relative;
+}
+nav {
+  float: right;
+}
+nav a, nav a:link, nav a:visited {
+  text-transform: uppercase;
+  font-style: underline;
+  color: #E6BE8A
+}
+footer {
+  background-color: black;
+}
+ul {
+  padding: 0;
+  list-style-type: none;
+}
+li {
+  float: left;
+  margin-left: 25px;
+}
+.hero {
+  background: url(../images/background-3.jpg) no-repeat center center;
+  background-size: cover;
+  padding: 350px 100px;
+}
+.hero h1, .tagline{
+
+}
+
+
 /* Container holding the image and the text */
 .firstcontainer {
+  display: inline-block;
   position: relative;
   text-align: center;
   max-width:100%;
 }
+.first-txt {
+  position: absolute;
+  top: 150px;
+  left: 600px;
+}
+.second-txt {
+  position: absolute;
+  bottom: 300px;
+  left: 450px;
+}
+.third-txt {
+  position: absolute;
+  bottom: 550px;
+  left: 550px;
+}
+.fourth-txt {
+  position: absolute;
+  bottom: 350px;
+  left: 450px;
+}
+.fifth-txt {
+  position: absolute;
+  bottom: 350px;
+  left: 450px;
+}
+.sixth-txt {
+  position: absolute;
+  bottom: 350px;
+  left: 450px;
+}
 .secondcontainer {
+  display: inline-block;
   position: relative;
   text-align: center;
   max-width:100%;
@@ -29,12 +92,6 @@
   position: relative;
   text-align: center;
   max-width:100%;
-}
-.centered {
-  position: absolute;
-  top: 30%;
-  left: 50%;
-  transform: translate(-50%, -50%);
 }
 .scene {
   max-width: 50%;
@@ -88,8 +145,7 @@ h5 {
 
 p{
   font-family: "Lato", serif;
-  margin-right:-5px;
-  margin-left: 50px;
+  margin-right: -200px;
   font-size: 20px;
   color: black;
 }
@@ -103,11 +159,13 @@ p{
 }
 .two{
      font-family: "Lato", serif;
-     margin-right:-5px;
-     margin-left: 50px;
+     margin-right:100px;
+     margin-left: 150px;
      color: black;
      font-size: 20px;
-
+     position: absolute;
+     text-align: left;
+     bottom: 300px;
 }
 .three{
      font-family: "Playfair Display", serif;
@@ -143,37 +201,11 @@ p{
      font-size: 20px;
 }
 
-a {
-  text-decoration: none;
-  padding-left: -50px;
-  padding-bottom: 0px;
-}
-a:link {
-  color: white;
-}
-a:visited {
-  color: white;
-}
-a:hover {
-  color: #E6BE8A;
-}
-a:active {
-  color: #E6BE8A;
-  text-decoration: underline;
-}
 img {
   max-width: 100%;
   image-orientation: left;
 }
 
-.navigation {
-  width: 120%;
-  height: 100px;
-  background-color: black;
-  margin: -10px;
-  flex-direction: row;
-  display: flex;
-}
 .logo {
   display: inline-block;
   width: 270px;
@@ -181,20 +213,7 @@ img {
   margin-right: 750px;
   padding-left: 30px;
 }
-.navbox {
-  float: left;
-  background-color: black;
-  text-align: center;
-  padding-right: 10px;
-  padding-top: 5px;
-  padding-bottom: 8px;
-  width: 140px;
-  height: 30px;
-  margin-top: 25px;
-  font-family: 'Playfair Display', serif;
-  font-size: 22px;
-  text-decoration: none;
-}
+
 .col {
   width: 200px;
   display: flow-root;
@@ -242,25 +261,17 @@ img {
   display: inline-block;
   transition: background-color 0.6s ease;
 }
-
 .active, .dot:hover {
   background-color: black;
 }
-
-/* Fading animation */
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@-webkit-keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
-
-@keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
+@media only screen and {max-width: 1000px} {
+  .col {
+    width: 100%;
+  }
+  .hero{
+    padding: 50px 58px;
+  }
+  .col-margin{
+    margin:0; 
+  }
 }
