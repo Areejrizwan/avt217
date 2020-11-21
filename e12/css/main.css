@@ -4,24 +4,42 @@
   }
 }
 
-
 * {
   box-sizing: border-box;
 }
 body {
   background-color: #8B4513;
-}
-header {
-  background-color: black;
-  display: flow-root;
-  padding: 10px 50px;
-  position: relative;
+  margin: 0;
 }
 h1{
-
+  font-family: 'Texturina', serif;
+  font-size: 80px;
+  text-align: center;
+  color: white;
 }
 h2{
-
+  font-family: 'Texturina', serif;
+  font-size: 80px;
+  text-align: center;
+  color: white;
+}
+h3{
+  font-family: 'Texturina', serif;
+  font-size: 80px;
+  text-align: center;
+  color: white;
+}
+h4{
+  font-family: 'Texturina', serif;
+  font-size: 80px;
+  text-align: center;
+  color: white;
+}
+.one{
+  font-family: 'Playfair Display', serif;
+  font-size: 75px;
+  text-align: center;
+  color: white;
 }
 .hero {
   background: url(../images/sh.jpg) no-repeat center center;
