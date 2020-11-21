@@ -13,42 +13,54 @@ body {
 }
 h1{
   font-family: 'Texturina', serif;
-  font-size: 80px;
+  font-weight: lighter;
+  font-size: 100px;
   text-align: center;
   color: white;
+  margin-top: 0px;
+   
 }
 h2{
   font-family: 'Texturina', serif;
-  font-size: 80px;
+  font-weight: lighter;
+  font-size: 100px;
   text-align: center;
   color: white;
+  margin-top: 0px;
 }
 h3{
   font-family: 'Texturina', serif;
-  font-size: 80px;
+  font-weight: lighter;
+  font-size: 100px;
   text-align: center;
   color: white;
 }
 h4{
-  font-family: 'Texturina', serif;
-  font-size: 80px;
-  text-align: center;
-  color: white;
-}
-.one{
   font-family: 'Playfair Display', serif;
-  font-size: 75px;
+  font-size: 60px;
   text-align: center;
   color: white;
+  font-weight: lighter;
+  text-decoration: underline;
+}
+p {
+  font-family: 'Playfair Display', serif;
+  color: white;
+  font-weight: lighter;
+}
+.chapter{
+  margin: 20px;
+  text-align: center;
+  font-size: 40px;
+}
+.body{
+  margin-top: 30px;
+  margin-left: 120px;
+  margin-right: 120px;
+  font-size: 15px;
 }
 .hero {
   background: url(../images/sh.jpg) no-repeat center center;
   background-size: cover;
   padding: 350px 100px;
-}
-.chapter{
-
-}
-.body{
-
 }
