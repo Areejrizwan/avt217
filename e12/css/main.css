@@ -17,16 +17,15 @@ h1{
   font-size: 100px;
   text-align: center;
   color: white;
-  margin-top: 0px;
-   
+  margin-top: -150px;
+
 }
 h2{
   font-family: 'Texturina', serif;
   font-weight: lighter;
   font-size: 100px;
   text-align: center;
-  color: white;
-  margin-top: 0px;
+  color: white
 }
 h3{
   font-family: 'Texturina', serif;
@@ -42,6 +41,7 @@ h4{
   color: white;
   font-weight: lighter;
   text-decoration: underline;
+  margin-bottom: -100px;  
 }
 p {
   font-family: 'Playfair Display', serif;
