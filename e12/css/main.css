@@ -1,6 +1,36 @@
+@media only screen and {max-width: 1000px} {
+.hero {
+    padding: 50px 58px;
+  }
+}
+
+
 * {
   box-sizing: border-box;
 }
 body {
-  background-color: lightblue;
+  background-color: #8B4513;
+}
+header {
+  background-color: black;
+  display: flow-root;
+  padding: 10px 50px;
+  position: relative;
+}
+h1{
+
+}
+h2{
+
+}
+.hero {
+  background: url(../images/sh.jpg) no-repeat center center;
+  background-size: cover;
+  padding: 350px 100px;
+}
+.chapter{
+
+}
+.body{
+
 }
