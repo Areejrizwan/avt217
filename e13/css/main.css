@@ -32,7 +32,7 @@ body {
   border-right: 300px solid grey;
   position: absolute;
   animation name: bite;
-  animation-duration: 0.7s;
+  animation-duration: 0.4s;
   animation-iteration-count: infinite;
 }
 .pacman-snack {
@@ -45,9 +45,10 @@ body {
   background-color: black;
 }
 @keyframes bite{
-
-
-
-
-
-  
+  50% {
+    transform:rotate(0deg);
+ }
+  100% {
+    transform:rotate(90deg);
+  }
+}
