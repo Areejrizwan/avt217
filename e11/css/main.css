@@ -33,5 +33,11 @@ body {
   position: absolute;
 }
 .pacman-snack {
-
+  width: 50px;
+  height: 50px;
+  margin-top: 500px;
+  margin-left:7500px;
+  border-radius: 50%;
+  position: absolute;
+  background-color: black;
 }
