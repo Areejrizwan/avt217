@@ -1,5 +1,5 @@
-@media only screen and {max-width: 1000px} {
-  .col {
+@media only screen and {max-width: 1000px}{
+.hero h1,h2{
     width: 100%;
   }
   .hero{
@@ -31,13 +31,59 @@ nav a, nav a:link, nav a:visited {
 }
 footer {
   background-color: black;
-  font-size: 18px;
-  margin-top: 0px;
-  font-family: "Lato", sans-serif;
-  height: 50%;
+  height: 15%;
   width: 100%;
   display: flow-root;
-  margin-bottom: 0px;
+}
+.head{
+  color: white;
+  margin-left: -600px;
+  text-align:  center;
+  font-size: 25px;
+  font-family: "Playfair Display", sans-serif;
+  margin-right: 600px;
+  position: relative;
+}
+.subhead{
+  position: relative;
+  color: white;
+  margin-right: 20px;
+  font-size: 18px;
+  text-align: center;
+  margin-right: 600px;
+  margin-left: -600px;
+  font-family: "Playfair Display", sans-serif;
+}
+.head2{
+  position: relative;
+  color: white;
+  top: 5px;
+  font-size: 25px;
+  text-align: center;
+  bottom: 500px;
+  font-family: "Playfair Display", sans-serif;
+}
+.subhead2{
+  position: relative;
+  color: white;
+  text-align: center;
+  font-size: 18px;
+  font-family: "Playfair Display", sans-serif;
+}
+.head3{
+  position: relative;
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  bottom: 5px;
+  font-family: "Playfair Display", sans-serif;
+}
+.subhead3{
+  position: relative; 
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  font-family: "Playfair Display", sans-serif;
 }
 ul {
   padding: 0;
@@ -52,10 +98,29 @@ li {
   background-size: cover;
   padding: 350px 100px;
 }
-.hero h1, .tagline{
-
+.hero h1{
+  display: inline-block;
+  position: absolute;
+  text-align: center;
+  max-width:100%;
+  top:200px;
+  left: 600px;
+  font-family: 'Kaushan Script', cursive;
+  font-weight: lighter;
+  font-size: 80px;
+  color: #E6BE8A;
 }
-/* Container holding the image and the text */
+.hero h2{
+  display: inline-block;
+  position: absolute;
+  text-align: center;
+  max-width:100%;
+  left: 450px;
+  font-family: 'Playfair Display', serif;
+  font-size: 80px;
+  color: white;
+  bottom: 100px;
+}
 .firstcontainer {
   display: inline-block;
   position: relative;
@@ -64,7 +129,7 @@ li {
 }
 .first-txt {
   position: absolute;
-  top: 150px;
+  top: 50px;
   left: 600px;
   font-family: 'Kaushan Script', cursive;
   font-weight: lighter;
@@ -73,22 +138,46 @@ li {
 }
 .tagline {
   position: absolute;
-  top: 150px;
-  left: 600px;
+  top: 280px;
+  margin-left: 300px;
+  margin-right: 300px;
+  font-weight: lighter;
+  font-size: 80px;
+  font-family: "Lato", serif;
+  font-size: 20px;
+  color: black;
+  border-style: solid;
+}
+.second-txt {
+  position: absolute;
+  top: 80px;
+  left: 570px;
   font-family: 'Kaushan Script', cursive;
   font-weight: lighter;
   font-size: 80px;
   color: #E6BE8A;
 }
-.second-txt {
+.tagline2 {
   position: absolute;
-  bottom: 300px;
-  left: 450px;
+  font-weight: lighter;
+  left: 470px;
+  font-family: 'Playfair Display', serif;
+  font-size: 80px;
+  color: white;
+  top: 280px;
 }
-.third-txt {
+.button {
   position: absolute;
-  bottom: 550px;
-  left: 550px;
+  font-weight: lighter;
+  left: 490px;
+  font-family: 'Playfair Display', serif;
+  font-size: 50px;
+  color: white;
+  top: 530px;
+  border-style: solid;
+}
+.button a, .button a:link, .button a:visited {
+  color: white;
 }
 .secondcontainer {
   display: inline-block;
@@ -96,10 +185,57 @@ li {
   text-align: center;
   max-width:100%;
 }
+.sectionbreak {
+  background-color: white;
+  padding: 150px 120px;
+}
+.sub{
+  font-family: "Lato", serif;
+  font-size: 50px;
+  color: black;
+  text-align: center;
+  margin-right: 20px;
+  margin-left: 20px;
+}
 .thirdcontainer {
   position: relative;
   text-align: center;
   max-width:100%;
+}
+.third-txt {
+  position: absolute;
+  top: 30px;
+  left: 470px;
+  font-family: 'Kaushan Script', cursive;
+  font-weight: lighter;
+  font-size: 80px;
+  color: #E6BE8A;
+}
+.tagline3 {
+  position: absolute;
+  font-weight: lighter;
+  left: 250px;
+  font-family: 'Playfair Display', serif;
+  font-size: 80px;
+  color: white;
+  top: 230px;
+}
+.button2 {
+  position: absolute;
+  font-weight: lighter;
+  left: 660px;
+  font-family: 'Playfair Display', serif;
+  font-size: 50px;
+  color: white;
+  top: 450px;
+  border-style: solid;
+}
+.button2 a, .button2 a:link, .button2 a:visited {
+  color: white;
+}
+footer{
+  padding: 50px 100px;
+}
 }
 .scene {
   max-width: 50%;
@@ -111,26 +247,6 @@ li {
    max-width: 100%;
    max-height: 150%;
    margin-bottom:0px;
-}
-h1 {
-  font-family: 'Kaushan Script', cursive;
-  font-weight: lighter;
-  font-size: 80px;
-  color: #E6BE8A;
-}
-h2 {
-  font-family: 'Playfair Display', serif;
-  font-size: 80px;
-  color: white;
-  position: absolute;
-  bottom: 350px;
-  left: 450px;
-}
-.tagline{
-  font-family: "Lato", serif;
-  margin-right: -200px;
-  font-size: 20px;
-  color: black;
 }
 .six{
      text-align: center;
