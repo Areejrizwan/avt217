@@ -1,12 +1,12 @@
-@media only screen and {max-width: 1000px}{
-.hero h1,h2{
+@media only screen and (max-width: 1000px){
+h1,h2{
     width: 100%;
   }
   .hero{
     padding: 50px 58px;
   }
-  .col-margin{
-    margin:0;
+  .col{
+    width: 100%;
   }
 }
 * {
@@ -268,36 +268,36 @@ li {
   bottom: 100px;
 }
 .col {
-  width: calc(50% - 12.5px);
-  float: left;
+  width:25%;
+  height:100px;
+  text-align:center;
+  padding:5px;
+  margin:2px;
 }
 .side {
   display: flow-root;
-  width: 80vw;
-  margin: 25px;
-  padding: 25px 0;
+  width: 100%;
+  padding: 5px;
+  margin: 20px;
 }
 .image {
-  margin-right: 25px;
   max-width: 50%;
   max-height: auto;
-  margin-right: 100px;
-  margin-left: 700px;
-}
-.col img {
-  width: 100%;
+  margin-right: 700px;
+  margin-left: 70px;
+  margin-top: 70px;
 }
 .col h1{
-  top:50px;
-  left: 600px;
+  top: 500px;
+  margin: 0;
   font-family: 'Kaushan Script', cursive;
   font-weight: lighter;
   font-size: 80px;
   color: #E6BE8A;
 }
 .col h2{
-  top:200px;
-  left: 600px;
+  top:230px;
+  margin-right: 50px;
   font-family: 'Playfair Display', serif;
   font-weight: lighter;
   font-size: 20px;
@@ -308,17 +308,16 @@ li {
   font-weight: lighter;
   left: 600px;
   font-family: 'Playfair Display', serif;
-  font-size: 50px;
+  font-size: 40px;
   color: black;
-  top: 800px;
+  margin-top: 20px;
   border-style: solid;
 }
-.button2 a, .button2 a:link, .button2 a:visited {
-  color: white;
+.button3 a, .button3 a:link, .button3 a:visited {
+  color: black;
 }
 img {
   max-width: 100%;
-  image-orientation: left;
 }
 .title {
   display: inline-block;
@@ -326,6 +325,24 @@ img {
   height: auto;
   margin-right: 750px;
   padding-left: 30px;
+}
+.customers {
+  position: absolute;
+  top: 30px;
+  left: 470px;
+  font-family: 'Kaushan Script', cursive;
+  font-weight: lighter;
+  font-size: 20px;
+  color: black;
+}
+.reviews {
+  position: absolute;
+  font-weight: lighter;
+  left: 250px;
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+  color: black;
+  top: 230px;
 }
 .dot {
   cursor: pointer;
