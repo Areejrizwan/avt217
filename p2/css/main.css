@@ -5,9 +5,6 @@ h1,h2{
   .hero{
     padding: 50px 58px;
   }
-  .col{
-    width: 100%;
-  }
 }
 * {
   box-sizing: border-box;
@@ -24,6 +21,7 @@ header {
 nav {
   float: right;
   font-size: 20px;
+  margin-top: 20px;
 }
 nav a, nav a:link, nav a:visited {
   text-transform: uppercase;
@@ -125,9 +123,6 @@ li {
   bottom: 100px;
 }
 .firstcontainer {
-  background: url(../images/background-1.jpg) no-repeat center center;
-  background-size: cover;
-  padding: 350px 100px;
   display: inline-block;
   position: relative;
   text-align: center;
@@ -267,29 +262,25 @@ li {
   color: white;
   bottom: 100px;
 }
-.col {
-  width:40%;
-  float: right;
-  text-align:center;
+.story{
+  background-color: white;
+  padding: 150px 120px;
 }
-.row {
-  display: inline-block;
-  margin: 100px 200px;
-}
-.image {
-  max-width: 50%;
-  max-height: auto;
-  margin-right: 700px;
-  margin-left: 70px;
-  margin-top: 70px;
-}
-.col h1{
+.story h1{
+  margin-top: 30px;
+  text-align: center;
   font-family: 'Kaushan Script', cursive;
   font-weight: lighter;
   font-size: 80px;
   color: #E6BE8A;
 }
-.col h2{
+.story h2{
+  font-family: 'Playfair Display', serif;
+  font-weight: lighter;
+  font-size: 20px;
+  color: black;
+}
+.story h3{
   font-family: 'Playfair Display', serif;
   font-weight: lighter;
   font-size: 20px;
@@ -308,15 +299,12 @@ li {
 .button3 a, .button3 a:link, .button3 a:visited {
   color: black;
 }
-img {
-  max-width: 100%;
-}
 .title {
   display: inline-block;
   width: 270px;
   height: auto;
-  margin-right: 750px;
-  padding-left: 30px;
+  margin-right: 700px;
+  padding-left: 5px;
 }
 .customers {
   position: absolute;
@@ -348,4 +336,7 @@ img {
 }
 .active, .dot:hover {
   background-color: black;
+}
+img{
+  width: 100%;
 }
