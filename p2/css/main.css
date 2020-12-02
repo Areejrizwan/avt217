@@ -268,17 +268,13 @@ li {
   bottom: 100px;
 }
 .col {
-  width:25%;
-  height:100px;
+  width:40%;
+  float: right;
   text-align:center;
-  padding:5px;
-  margin:2px;
 }
-.side {
-  display: flow-root;
-  width: 100%;
-  padding: 5px;
-  margin: 20px;
+.row {
+  display: inline-block;
+  margin: 100px 200px;
 }
 .image {
   max-width: 50%;
@@ -288,16 +284,12 @@ li {
   margin-top: 70px;
 }
 .col h1{
-  top: 500px;
-  margin: 0;
   font-family: 'Kaushan Script', cursive;
   font-weight: lighter;
   font-size: 80px;
   color: #E6BE8A;
 }
 .col h2{
-  top:230px;
-  margin-right: 50px;
   font-family: 'Playfair Display', serif;
   font-weight: lighter;
   font-size: 20px;
