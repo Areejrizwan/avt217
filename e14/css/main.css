@@ -5,16 +5,14 @@ h1{
   font-size: 35px;
   font-style: "Playfair Display", serif;
   text-align: center;
-  color: mediumvioletred;
+  color: navy;
 }
 h2{
   font-size: 20px;
   font-style: "Playfair Display", serif;
-  text-align: center;
-  color: mediumvioletred;
+  color: navy;
 }
 p{
   font-size: 15px;
   font-style: "Playfair Display", serif;
-  text-align: center;
 }
