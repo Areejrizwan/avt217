@@ -21,19 +21,35 @@ body {
   border-radius: 50%;
   position: absolute;
   background-color: black;
+  animation-name:eye;
+  animation-duration:0.7s;
+  animation-iteration-count:infinite;
+}
+.pacman-eye2 {
+  width: 35px;
+  height: 35px;
+  margin-top: 120px;
+  margin-left: 320px;
+  border-radius: 50%;
+  position: absolute;
+  background-color: white;
+  animation-name:eye_moves;
+  animation-duration:0.7s;
+  animation-iteration-count:infinite;
 }
 .pacman-bite {
-  width: 100px;
+  width: 50px;
   height: 0px;
-  margin-top: 120px;
-  margin-left: 300px;
-  border-top: 180px solid transparent;
-  border-bottom: 180px solid transparent;
-  border-right: 300px solid grey;
+  margin-top: -40px;
+  margin-left: 200px;
+  border-top: 370px solid transparent;
+  border-bottom:380px solid transparent;
+  border-right: 400px solid grey;
   position: absolute;
-  animation name: bite;
-  animation-duration: 0.4s;
-  animation-iteration-count: infinite;
+  clip-path:polygon(100% 74%,44% 48%,100% 20%);
+  animation-name:bite_first;
+  animation-duration:0.6s;
+  animation-iteration-count:infinite;
 }
 .pacman-snack {
   width: 50px;
@@ -43,12 +59,92 @@ body {
   border-radius: 50%;
   position: absolute;
   background-color: black;
+  animation-name:snack_first;
+  animation-duration:10s;
+  animation-iteration-count:infinite;
 }
-@keyframes bite{
-  50% {
-    transform:rotate(0deg);
- }
-  100% {
-    transform:rotate(90deg);
-  }
+@keyframes bite_first{
+  0%{
+	clip-path:polygon(100% 74%,44% 48%,100% 20%);
+	}
+	50%{
+	clip-path:polygon(100% 50%,44% 48%,100% 50%);
+	}
+}
+@keyframes snack_first{
+   0%{
+     left:0%;
+     background-color: mediumvioletred;
+   }
+   25%{
+     left:100%;
+     background-color: black;
+   }
+   50%{
+     left:50%;
+     background-color: navy;
+   }
+   75%{
+     left:0;
+     background-color: teal;
+   }
+}
+@keyframes eye{
+   0%{
+     transform: rotate(0deg);
+     top: 0;
+     left: 0;
+   }
+   25%{
+     transform: rotate(120deg);
+     top: 20px;
+     left: 10px;
+   }
+   50%{
+     transform: rotate(220deg);
+     top: -20px;
+     left: 5px;
+   }
+   75%{
+     transform: rotate(300deg);
+     top: 10px;
+     left: 50px;
+   }
+   100%{
+     transform: rotate(360deg);
+     top: 0;
+     left: 0;
+   }
+}
+@keyframes eye_moves{
+   0%{
+     background-color: teal;
+     transform: rotate(0deg);
+     top: 0;
+     left: 0;
+   }
+   25%{
+     background-color: mediumvioletred;
+     transform: rotate(120deg);
+     top: 20px;
+     left: 10px;
+   }
+   50%{
+     background-color: navy;
+     transform: rotate(220deg);
+     top: -20px;
+     left: 5px;
+   }
+   75%{
+     background-color: lightseagreen;
+     transform: rotate(300deg);
+     top: 10px;
+     left: 50px;
+   }
+   100%{
+     background-color: slategrey;
+     transform: rotate(360deg);
+     top: 0;
+     left: 0;
+   }
 }
