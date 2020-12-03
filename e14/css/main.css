@@ -1,0 +1,20 @@
+body{
+  background-color: slategrey;
+}
+h1{
+  font-size: 35px;
+  font-style: "Playfair Display", serif;
+  text-align: center;
+  color: mediumvioletred;
+}
+h2{
+  font-size: 20px;
+  font-style: "Playfair Display", serif;
+  text-align: center;
+  color: mediumvioletred;
+}
+p{
+  font-size: 15px;
+  font-style: "Playfair Display", serif;
+  text-align: center;
+}
