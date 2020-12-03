@@ -1,10 +1,97 @@
-@media only screen and (max-width: 1000px){
-h1,h2{
+@media only screen and (max-width: 1000px) {
+.col{
     width: 100%;
-  }
-  .hero{
-    padding: 50px 58px;
-  }
+    height: 100px;
+ }
+.col2{
+    width: 100%;
+    height: 200px;
+    margin: 60px;
+ }
+nav {
+    font-size: 12px;
+    text-align: center;
+    margin-top: 50px;
+ }
+ footer{
+   padding: 50px 100px;
+ }
+ img{
+   width: 50%;
+ }
+.row {
+   margin: -60px;
+}
+.hero {
+    padding: 50px 50px;
+ }
+.hero h1 {
+   font-size: 10px;
+   text-align: center;
+ }
+.hero h2{
+   font-size: 1px;
+   text-align: center;
+ }
+.firstcontainer, .secondcontainer, .thirdcontainer{
+  padding: 50px 50px;
+ }
+.first-txt {
+  text-align: center;
+ }
+.second-txt{
+   text-align: center;
+   margin: -60px;
+ }
+.third-txt{
+  text-align: center;
+  margin-top: -160px;
+}
+.tagline{
+   text-align: center;
+   margin: -60px;
+ }
+.tagline2, .tagline3{
+   text-align: center;
+   margin: -60px;
+ }
+.button {
+   text-align: center;
+   margin: -60px;
+ }
+.button2 {
+  text-align: center;
+  margin: 65px;
+}
+.sub{
+  text-align: center;
+  margin: -90px;
+}
+.title {
+    display: inline-block;
+    width: 50px;
+    height: 20px;
+    padding-left: 5px;
+ }
+.sectionbreak{
+  padding: 50px 20px;
+ }
+ .lines{
+   text-align: center;
+   margin: -60px;
+ }
+ .container h1{
+   margin: -60px;
+   margin-bottom: 100px;
+   text-align: center;
+ }
+ .customers{
+   margin: 20px;
+ }
+ .container h2{
+   margin: -70px;
+   text-align: center;
+ }
 }
 * {
   box-sizing: border-box;
@@ -16,7 +103,6 @@ header {
   background-color: black;
   display: flow-root;
   padding: 10px 50px;
-  position: relative;
 }
 nav {
   float: right;
@@ -31,60 +117,11 @@ nav a, nav a:link, nav a:visited {
 nav a:hover{
   color: #E6BE8A;
 }
+
 footer {
   background-color: black;
-  height: 15%;
-  width: 100%;
   display: flow-root;
-}
-.head{
-  color: white;
-  margin-left: -600px;
-  text-align:  center;
-  font-size: 25px;
-  font-family: "Playfair Display", sans-serif;
-  margin-right: 600px;
-  position: relative;
-}
-.subhead{
-  position: relative;
-  color: white;
-  margin-right: 20px;
-  font-size: 18px;
-  text-align: center;
-  margin-right: 600px;
-  margin-left: -600px;
-  font-family: "Playfair Display", sans-serif;
-}
-.head2{
-  position: relative;
-  color: white;
-  top: 20px;
-  font-size: 25px;
-  text-align: center;
-  font-family: "Playfair Display", sans-serif;
-}
-.subhead2{
-  position: relative;
-  color: white;
-  text-align: center;
-  font-size: 18px;
-  font-family: "Playfair Display", sans-serif;
-}
-.head3{
-  position: relative;
-  color: white;
-  font-size: 25px;
-  text-align: center;
-  bottom: 5px;
-  font-family: "Playfair Display", sans-serif;
-}
-.subhead3{
-  position: relative;
-  color: white;
-  font-size: 18px;
-  text-align: center;
-  font-family: "Playfair Display", sans-serif;
+  padding: 50px 50px;
 }
 ul {
   padding: 0;
@@ -97,94 +134,82 @@ li {
 .hero {
   background: url(../images/background-3.jpg) no-repeat center center;
   background-size: cover;
-  padding: 350px 100px;
+  padding: 250px 100px;
 }
 .hero h1{
-  display: inline-block;
-  position: absolute;
   text-align: center;
   max-width:100%;
-  top:200px;
-  left: 600px;
+  margin-top:0px;
   font-family: 'Kaushan Script', cursive;
   font-weight: lighter;
-  font-size: 80px;
+  font-size: 80.5px;
   color: #E6BE8A;
 }
 .hero h2{
-  display: inline-block;
-  position: absolute;
   text-align: center;
   max-width:100%;
-  left: 450px;
   font-family: 'Playfair Display', serif;
-  font-size: 80px;
+  font-size: 70.5px;
   color: white;
   bottom: 100px;
 }
 .firstcontainer {
-  display: inline-block;
-  position: relative;
-  text-align: center;
-  max-width:100%;
+  background: url(../images/background-1.jpg) no-repeat center center;
+  background-size: cover;
+  padding: 100px 100px;
 }
 .first-txt {
-  position: absolute;
-  top: 50px;
-  left: 600px;
+  text-align: center;
   font-family: 'Kaushan Script', cursive;
   font-weight: lighter;
-  font-size: 80px;
+  font-size: 80.5px;
   color: #996515;
+  margin-top: 20px;
+  margin-bottom: 55px;
 }
 .tagline {
-  position: absolute;
-  top: 280px;
-  margin-left: 300px;
-  margin-right: 300px;
+  text-align: center;
   font-weight: lighter;
-  font-size: 80px;
+  margin-top: 10px;
+  margin-bottom: 100px;
   font-family: "Lato", serif;
-  font-size: 20px;
+  font-size: 30px;
   color: black;
-  border-style: solid;
 }
 .second-txt {
-  position: absolute;
-  top: 80px;
-  left: 570px;
+  text-align: center;
   font-family: 'Kaushan Script', cursive;
   font-weight: lighter;
-  font-size: 80px;
+  font-size: 70.5px;
   color: #E6BE8A;
+  margin-top: 0px;
+  margin-bottom: 100px;
 }
 .tagline2 {
-  position: absolute;
   font-weight: lighter;
-  left: 470px;
+  text-align: center;
   font-family: 'Playfair Display', serif;
-  font-size: 80px;
+  font-size: 70.5px;
   color: white;
-  top: 280px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 .button {
-  position: absolute;
   font-weight: lighter;
-  left: 490px;
+  text-align: center;
   font-family: 'Playfair Display', serif;
   font-size: 50px;
   color: white;
-  top: 530px;
-  border-style: solid;
+  margin-top: 100px;
 }
 .button a, .button a:link, .button a:visited {
   color: white;
+  border-style: solid;
 }
 .secondcontainer {
-  display: inline-block;
-  position: relative;
-  text-align: center;
-  max-width:100%;
+  background: url(../images/food-2.jpg) no-repeat center center;
+  background-size: cover;
+  padding: 200px 100px;
 }
 .sectionbreak {
   background-color: white;
@@ -192,71 +217,55 @@ li {
 }
 .sub{
   font-family: "Lato", serif;
-  font-size: 50px;
+  font-size: 40px;
   color: black;
   text-align: center;
-  margin-right: 20px;
-  margin-left: 20px;
 }
 .thirdcontainer {
-  position: relative;
-  text-align: center;
-  max-width:100%;
+  background: url(../images/food-3.jpg) no-repeat center center;
+  background-size: cover;
+  padding: 200px 100px;
 }
 .third-txt {
-  position: absolute;
-  top: 30px;
-  left: 470px;
+  text-align: center;
   font-family: 'Kaushan Script', cursive;
   font-weight: lighter;
-  font-size: 80px;
+  font-size: 70.5px;
   color: #E6BE8A;
 }
 .tagline3 {
-  position: absolute;
   font-weight: lighter;
   left: 250px;
   font-family: 'Playfair Display', serif;
-  font-size: 80px;
+  font-size: 65px;
   color: white;
-  top: 230px;
+  text-align: center;
 }
 .button2 {
-  position: absolute;
   font-weight: lighter;
-  left: 660px;
+  text-align: center;
   font-family: 'Playfair Display', serif;
   font-size: 50px;
   color: white;
-  top: 450px;
-  border-style: solid;
 }
 .button2 a, .button2 a:link, .button2 a:visited {
   color: white;
+  border-style: solid;
 }
 .container {
   background: url(../images/coffee-1.jpg) no-repeat center center;
   background-size: cover;
-  padding: 350px 100px;
+  padding: 200px 100px;
 }
 .container h1{
-  display: inline-block;
-  position: absolute;
   text-align: center;
-  max-width:100%;
-  top:200px;
-  left: 600px;
   font-family: 'Kaushan Script', cursive;
   font-weight: lighter;
   font-size: 80px;
   color: #E6BE8A;
 }
 .container h2{
-  display: inline-block;
-  position: absolute;
   text-align: center;
-  max-width:100%;
-  left: 470px;
   font-family: 'Playfair Display', serif;
   font-size: 80px;
   color: white;
@@ -268,9 +277,6 @@ li {
 }
 .intro{
   text-align: center;
-  max-width:100%;
-  top:600px;
-  left: 600px;
   font-family: 'Kaushan Script', cursive;
   font-weight: lighter;
   font-size: 80px;
@@ -282,16 +288,13 @@ li {
   font-size: 60px;
   color: black;
   text-align: center;
-  max-width:100%;
-  left: 600px;
 }
 .lines{
   font-family: 'Playfair Display', serif;
   font-weight: lighter;
   font-size: 40px;
+  margin: 80px;
   color: black;
-  margin-right: 200px;
-  margin-left: 200px;
   text-align: center;
 }
 .button3 {
@@ -305,33 +308,39 @@ li {
   color: black;
   border-style: solid;
 }
-.customers{
+.customers h1{
   font-family: 'Playfair Display', serif;
   font-weight: lighter;
-  font-size: 20px;
+  font-size: 40.5px;
   color: black;
-  margin-top: 250px; 
+  margin-top: 120px;
+  margin-bottom: 100px;
   text-align: center;
 }
+.col{
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+  color: black;
+  margin-bottom: 100px;
+  text-align: center;
+  line-height: 30px;
+}
+.row{
+  font-family: 'Playfair Display', serif;
+  font-size: 18px;
+  color: white;
+  text-align: center;
+}
+.col2 {
+  float: left;
+  width: 33.33%;
+  padding: -10px;
+  height: 100px;
+}
 .title {
-  display: inline-block;
-  width: 270px;
-  height: auto;
-  margin-right: 700px;
-  padding-left: 5px;
-}
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-.active, .dot:hover {
-  background-color: black;
+  width: 280px;
+  height: 35px;
+  margin-left: -20px;
 }
 img{
   width: 100%;
